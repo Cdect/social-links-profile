@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #e8def8, #f5f0ff); /* lavender gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Profile Card */
+.profile-card {
+  background-color: white;
+  width: 350px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 30px 20px;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+
+/* Profile Image */
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+/* Name & Location */
+.profile-card h1 {
+  margin: 10px 0 5px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.location {
+  color: #c4c4c4;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.bio {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+/* Social Links */
+.links a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: #a97fff;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.links a:hover {
+  background-color:  #7d5fff;
+  transform: scale(1.05);
+}
+
+/* Footer */
+.attribution {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+  color: #333;
+}
+
